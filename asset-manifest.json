@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/responsiveBlog/static/css/main.ce99d386.css",
+    "main.js": "/responsiveBlog/static/js/main.289771b4.js",
+    "static/js/787.3eb8f3cd.chunk.js": "/responsiveBlog/static/js/787.3eb8f3cd.chunk.js",
+    "static/media/image6.png": "/responsiveBlog/static/media/image6.c74781deb5ef9e6f7128.png",
+    "static/media/image2.png": "/responsiveBlog/static/media/image2.a353acc3cea06bad54af.png",
+    "static/media/image1.png": "/responsiveBlog/static/media/image1.624e95f3ce8fabd6d81d.png",
+    "static/media/hero.png": "/responsiveBlog/static/media/hero.d67d43c2c9cae43497ae.png",
+    "static/media/image4.png": "/responsiveBlog/static/media/image4.81c4496d4882454dd271.png",
+    "static/media/Picturinho.jpg": "/responsiveBlog/static/media/Picturinho.eab5289acd798559263b.jpg",
+    "static/media/image5.png": "/responsiveBlog/static/media/image5.4dd5ff74f6107c5c2614.png",
+    "static/media/image3.png": "/responsiveBlog/static/media/image3.4a643834c725b57c70f7.png",
+    "index.html": "/responsiveBlog/index.html",
+    "main.ce99d386.css.map": "/responsiveBlog/static/css/main.ce99d386.css.map",
+    "main.289771b4.js.map": "/responsiveBlog/static/js/main.289771b4.js.map",
+    "787.3eb8f3cd.chunk.js.map": "/responsiveBlog/static/js/787.3eb8f3cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce99d386.css",
+    "static/js/main.289771b4.js"
+  ]
+}
