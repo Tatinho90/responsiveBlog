@@ -1,24 +1,69 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import AboutMe from './components/AboutMe';
+import Posts from './components/Posts';
+import data from './data';
+import { Routes, Route} from "react-router-dom"
 
 function App() {
+const [numberOfPosts, setNumberOfPosts] = useState(3)
+
+function increasePostNumber(){
+  setNumberOfPosts(prev => prev + 3)
+}
+
+function decreasePostNumber(){
+  setNumberOfPosts(prev => prev -3)
+
+}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    <Header />
+
+        <Routes>
+
+          <Route 
+            path="/" 
+            element= {
+              <>
+              <Main />
+              <div class="mainPost-container">
+              <Posts 
+                  numberOfPosts = {numberOfPosts}
+              />
+              
+              </div>
+              { numberOfPosts < data.length && <p 
+                className="show-button" 
+                onClick={increasePostNumber}
+              >Show More</p>}
+              { numberOfPosts === data.length && <p 
+                className="show-button" 
+                onClick={decreasePostNumber}
+              >Show Less</p>}
+              
+              </>
+            }
+            >
+
+          </Route>
+
+          <Route 
+              path="/AboutMe"
+              element= { <AboutMe />}
+              >
+
+          </Route>
+
+        </Routes>
+
+    <Footer/>
+
+    </>
   );
 }
 
