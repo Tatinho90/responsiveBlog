@@ -1,4 +1,4 @@
-Project desription:  Responsive website using React loooking good on both mobile-, tablet-, and desktop. I used React-Router, CSS and HTML to create the project.
+Project desription:  Responsive Website using React loooking good on both mobile-, tablet-, and desktop. I used React-Router, CSS and HTML to create the project.
 
 # Getting Started with Create React App
 
