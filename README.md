@@ -1,3 +1,5 @@
+Project desription:  Responsive website using React loooking good on both mobile-, tablet-, and desktop. I used React-Router, CSS and HTML to create the project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
